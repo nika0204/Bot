@@ -1,7 +1,7 @@
 const { Telegraf, Markup } = require('telegraf');
 
 // Встав свій токен бота
-const bot = new Telegraf('7390540523:AAEvUkQBdi5h_8oqKptlI4zkaHOAux364tw');
+const bot = new Telegraf('process.env.BOT_TOKEN');
 const WEBHOOK_URL = 'https://bot-a1zm.onrender.com';
 const orderReturnState = new Set();
 
